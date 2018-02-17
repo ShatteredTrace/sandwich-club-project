@@ -6,12 +6,11 @@
     tools:context="com.udacity.sandwichclub.DetailActivity">
 
     <!--
-    TODO #3
+    COMPLETED #3
     Detail layout includes a ScrollView so all the details are visible in small screen devices
 
-    TODO #4
+    COMPLETED #4
     Sandwich details are shown in a sensible layout. For example, ingredients appear next to the ingredients label
-
     -->
 
     <LinearLayout

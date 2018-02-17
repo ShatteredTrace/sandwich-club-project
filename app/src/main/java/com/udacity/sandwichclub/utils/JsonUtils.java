@@ -11,13 +11,14 @@ import java.util.List;
 
 public class JsonUtils {
 
-    //This Method parses the json String to a Sandwich object
+    /*This Method parses the json String to a Sandwich object
 
-    //COMPLETED #0
-    //JSON data is parsed correctly to a Sandwich object in JsonUtils
+    COMPLETED #0
+    JSON data is parsed correctly to a Sandwich object in JsonUtils
 
-    //COMPLETED #1
-    //JSON is parsed without using 3rd party libraries
+    COMPLETED #1
+    JSON is parsed without using 3rd party libraries
+    */
 
     public static Sandwich parseSandwichJson(String json) {
         try {
@@ -43,6 +44,7 @@ public class JsonUtils {
             }
 
             return new Sandwich(mainName, alsoKnownAs, placeOfOrigin, description, image, ingredients);
+            
         } catch (JSONException e) {
             e.printStackTrace();
         }

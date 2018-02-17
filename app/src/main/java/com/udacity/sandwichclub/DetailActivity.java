@@ -13,7 +13,7 @@ import com.udacity.sandwichclub.utils.JsonUtils;
 
 import org.w3c.dom.Text;
 
-    /*TODO #2
+    /*COMPLETED #2
     DetailActivity shows all Sandwich details correctly
     */
 

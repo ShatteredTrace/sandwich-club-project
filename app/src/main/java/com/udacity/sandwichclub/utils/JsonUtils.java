@@ -13,10 +13,10 @@ public class JsonUtils {
 
     //This Method parses the json String to a Sandwich object
 
-    //TODO #0
+    //COMPLETED #0
     //JSON data is parsed correctly to a Sandwich object in JsonUtils
 
-    //TODO #1
+    //COMPLETED #1
     //JSON is parsed without using 3rd party libraries
 
     public static Sandwich parseSandwichJson(String json) {
